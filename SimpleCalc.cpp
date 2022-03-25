@@ -18,7 +18,7 @@ int main()
 
 	std::cin >> option;
 
-	while(option != 'q')
+	while(option != 'q' || option != 'Q')
 	{
 		switch(option)
 		{
